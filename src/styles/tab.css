@@ -1,0 +1,50 @@
+.tabs {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.tab-btn {
+    padding: 10px 20px;
+    margin: 0 5px;
+    border: 1px solid #b4b4b4;
+    background: #b4b4b4;
+    color: black;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.tab-btn.active {
+    background: black;
+    color: white;
+}
+
+.info-box {
+    text-align: left;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    /* background: #fff; */
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    line-height: 1.6;
+  }
+  
+
+@media screen and (max-width: 576px) {
+    .tab-btn {
+        padding: 5px 10px;
+        font-size: 16px;
+        margin: 0 5px;
+        border: 1px solid #b4b4b4;
+        background: #b4b4b4;
+        color: black;
+        cursor: pointer;
+        margin-top: 10px;
+    }
+    
+    .tab-btn.active {
+        background: black;
+        color: white;
+    }
+}

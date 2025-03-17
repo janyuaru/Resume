@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #989898, #cfcfcf, #e5e5e5, #cfcfcf, #989898);
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+/* .container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 20px;
+} */
+
+.home, .about-me {
+    min-height: 100vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    scroll-margin-top: 80px;
+}
+
+.information {
+    min-height: 100vh;  
+    align-items: center;
+    justify-content: center;
+    scroll-margin-top: 80px;
+}
+
+

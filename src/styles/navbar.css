@@ -1,0 +1,62 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+HU:wght@200&display=swap');
+
+.navbar {
+    width: 100%;
+    max-width: 100vw; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 40px;
+    background: inherit;
+    position: fixed;
+    top: 0; 
+    left: 0;
+    z-index: 1000; 
+}
+
+.logo {
+    font-family: "Playwrite HU", cursive;
+    color: #000;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+}
+
+.menu li {
+    margin-left: 20px;
+}
+
+.menu li a {
+    font-family: "Karla", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+    text-decoration: none;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+.menu li a:hover {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+
+@media screen and (max-width: 576px) {
+    .menu {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .menu li {
+        margin: 10px 0;
+    }
+}
